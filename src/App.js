@@ -1,14 +1,12 @@
 import React from 'react'
-let r = 'React'
-let rn = 'React-Native'
 function App() {
-  const el =(
-    <div>
-      Create Web & Mobile Apps<br/>
-      with <span dangerouslySetInnerHTML={{ __html : r }}/> & {rn}
-    </div>
+  return (
+    <table border="1">
+      <tr><th>Product</th><th>Price</th></tr>
+      <tr><th>React</th><th>320</th></tr>
+      <tr><th>React Native</th><th>340</th></tr>
+    </table>
   )
-  return el
 }
 
 export default App;
