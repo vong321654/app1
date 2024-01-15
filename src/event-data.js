@@ -16,8 +16,11 @@ export function EventData2(){
     return(
         <div style={{textAlign:'center', marginTop:20}}>
         <button onClick={(ev)=> onClickStartStop(ev)}>Start</button>&nbsp;
+        <br></br>
         <button onClick={(ev)=> onClickAdd(ev)}>10+20</button>&nbsp;
+        <br></br>
         <button onClick={(ev)=> onClickAdd(ev)}>30*40</button>&nbsp;
+        <br></br>
     </div>
     )
 }
