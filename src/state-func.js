@@ -24,7 +24,7 @@ export default function MessageBox(){
         textAllign: 'left'
     }
     return(
-        <div style={{textAlign: 'center', marginTop:'20'}}>
+        <div style={{textAlign: 'center', marginTop:20}}>
             <div style={msgboxStyle}>{text}</div><br></br>
             <button onClick={onClickSetText}>ข้อความ</button>
             <button onClick={onClickZoomin}>เพิ่มขนาด</button>
