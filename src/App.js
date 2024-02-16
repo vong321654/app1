@@ -1,12 +1,6 @@
 import React from 'react'
-//import button from './class-components';
-//import { EventData2 } from './event-data';
-//import RefsFunc from  './refs-func';
-//import RefsArray from './refs-array';
-import MessageBox from './state-func';
+import Router3 from './router3';
 
-function App(){
-  return <MessageBox/>
+export default function App(){
+  return <Router3/>
 }
-
-export default App;
